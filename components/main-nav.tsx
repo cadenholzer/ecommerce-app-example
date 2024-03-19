@@ -18,6 +18,21 @@ export function MainNav({
       active: pathname === `/${params.storeid}`
     },
     {
+      href: `/${params.storeid}/billboards`,
+      label: 'Billboards',
+      active: pathname === `/${params.storeid}/billboards`
+    },
+    {
+      href: `/${params.storeid}/categories`,
+      label: 'Categories',
+      active: pathname === `/${params.storeid}/categories`
+    },
+    {
+      href: `/${params.storeid}/sizes`,
+      label: 'Sizes',
+      active: pathname === `/${params.storeid}/sizes`
+    },
+    {
       href: `/${params.storeid}/settings`,
       label: 'Settings',
       active: pathname === `/${params.storeid}/settings`
